@@ -8,9 +8,9 @@ void main(List<String> arguments) {
   // p1.setEndereco("Rua 1");
   print(p1);
 
-  var pessoaFisica1 = new PessoaFisica("Débora", "Rua 2", "222222222");
+  var pessoaFisica1 = PessoaFisica("Débora", "Rua 2", "222222222");
   print(pessoaFisica1);
 
-  var pessoaJuridica1 = new PessoaJuridica("Empresa 1", "Rua 3", "23636525414");
+  var pessoaJuridica1 = PessoaJuridica("Empresa 1", "Rua 3", "23636525414");
   print(pessoaJuridica1);
 }
